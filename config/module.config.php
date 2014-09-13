@@ -9,6 +9,14 @@ return array(
 	'admin' => array(
 		'models' =>array(
 		),
+		'parameters' => array(
+			'social-patreon-name' => array(
+				'identifier' => 'Patreon Name',
+				'group' => 'Social',
+				'type' => 'Text',
+				'default' => '&lt;Patreon Name Goes Here&gt;',
+			),
+		),
 	),
 	'view_helpers' => array(
 		'invokables' => array(
