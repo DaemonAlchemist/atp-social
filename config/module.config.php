@@ -16,6 +16,12 @@ return array(
 				'type' => 'Text',
 				'default' => '&lt;Patreon Name Goes Here&gt;',
 			),
+			'social-twc-site-id' => array(
+				'identifier' => 'Top Webcomics Site Id',
+				'group' => 'Social',
+				'type' => 'Text',
+				'default' => '&lt;TWC Site Id Goes Here&gt;',
+			),
 		),
 	),
 	'view_helpers' => array(
