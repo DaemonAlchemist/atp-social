@@ -6,12 +6,12 @@ return array(
 			'blocks' => array(
 				'patreonLink' => array(
 					'options' => array(
-						'patreonName' => array('siteParam', 'Patreon Name'),
+						'patreonName' => array('siteParam', 'social-patreon-name'),
 					),
 				),
 				'twcVoteButton' => array(
 					'options' => array(
-						'siteId' => array('siteParam', 'Top Webcomics Site Id'),
+						'siteId' => array('siteParam', 'social-twc-site-id'),
 					),
 				),
 			),
