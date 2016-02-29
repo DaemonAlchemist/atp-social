@@ -32,6 +32,12 @@ return array(
 				'type' => 'Date',
 				'default' => '',
 			),
+            'social-twc-incentive-date-format' => array(
+                'displayName' => 'TWC Incentive Date Format',
+                'group' => 'Social',
+                'type' => 'Text',
+                'default' => 'M jS',
+            ),
 		),
 	),
 );
