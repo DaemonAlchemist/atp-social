@@ -1,5 +1,9 @@
 <div class="patreon-link">
-    <a href="https://www.patreon.com/<?=$patreonName?>" target="blank">
+    <a
+        href="https://www.patreon.com/<?=$patreonName?>"
+        onclick="trackOutboundLink('https://www.patreon.com/<?=$patreonName?>'); return false;"
+        target="blank"
+    >
         {{image:<?=$this->siteParam("patreon-link-image")?>}}
     </a>
 </div>
